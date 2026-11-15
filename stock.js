@@ -53,6 +53,9 @@ console.log(
 
 // Calculate profit per unit
 function profitPerUnit(product) {
+   if (!product) {
+    return 0;
+  }
   return product.sell - product.buy;
 }
 
