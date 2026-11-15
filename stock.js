@@ -32,7 +32,7 @@ const products = [
 
 // Identify products that need restocking
 const lowStock = products.filter(
-  (p) => p.qty <= p.minQty
+  (p) => p.qty < p.minQty
 );
 
 console.log("Products to restock:");
