@@ -2,7 +2,7 @@
 const products = [
   {
     name: "Rice (50 kg bag)",
-    qty: 4,
+    qty: 2,
     minQty: 2,
     buy: 21000,
     sell: 23500
